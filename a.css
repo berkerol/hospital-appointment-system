@@ -1,0 +1,78 @@
+body, a, table, ul {
+  font-family: sans-serif;
+}
+
+a, table, ul {
+  text-align: center;
+}
+
+a, input[type=submit], input[type=reset] {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+a {
+  background-color: lightblue;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+td a, li a {
+  border-radius: 10px;
+  margin: 0px;
+}
+
+td a {
+  background-color: initial;
+  padding: 0px;
+}
+
+li a {
+  background-color: initial;
+  display: block;
+}
+
+input[type=submit], input[type=reset] {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  background-color: #f1f1f1;
+}
+
+th {
+  padding: 5px;
+}
+
+th, td {
+  border: hidden solid;
+}
+
+th, input[type=submit], input[type=reset] {
+  color: white;
+  background-color: green;
+}
+
+tr:nth-child(even), li:nth-child(even) {
+  background-color: lightgray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
